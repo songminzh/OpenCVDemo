@@ -1,0 +1,22 @@
+//
+//  OpenCVPrefix.pch
+//  OpenCVDemo
+//
+//  Created by Murphy Zheng on 17/8/23.
+//  Copyright © 2017年 mieasy. All rights reserved.
+//
+
+#ifndef OpenCVPrefix_pch
+#define OpenCVPrefix_pch
+
+#import <Availability.h>
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#endif /* OpenCVPrefix_pch */

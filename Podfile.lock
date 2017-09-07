@@ -1,0 +1,14 @@
+PODS:
+  - OpenCV (3.2.0):
+    - OpenCV/Dynamic (= 3.2.0)
+  - OpenCV/Dynamic (3.2.0)
+
+DEPENDENCIES:
+  - OpenCV
+
+SPEC CHECKSUMS:
+  OpenCV: 0f7ab403d1e81769bc6f4f524c3c6928ecb1fdb8
+
+PODFILE CHECKSUM: f7ae6ba2dbcdf147ebd451c41d3dd95cb5e3d948
+
+COCOAPODS: 1.2.1.beta.1

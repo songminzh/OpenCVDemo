@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005230D21F6003C4006652CD /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = 005230D01F6003C4006652CD /* haarcascade_frontalface_alt.xml */; };
+		005230D31F6003C4006652CD /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 005230D11F6003C4006652CD /* haarcascade_frontalface_alt2.xml */; };
+		006BFD0E1F541630003BDF78 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 006BFD0D1F541630003BDF78 /* libstdc++.tbd */; };
 		0086D5501F4D214A00D39C27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0086D54F1F4D214A00D39C27 /* main.m */; };
 		0086D5531F4D214A00D39C27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0086D5521F4D214A00D39C27 /* AppDelegate.m */; };
 		0086D5561F4D214A00D39C27 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0086D5551F4D214A00D39C27 /* ViewController.mm */; };
@@ -15,8 +18,9 @@
 		0086D55E1F4D214A00D39C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0086D55C1F4D214A00D39C27 /* LaunchScreen.storyboard */; };
 		0086D5691F4D214A00D39C27 /* OpenCVDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0086D5681F4D214A00D39C27 /* OpenCVDemoTests.m */; };
 		0086D5741F4D214A00D39C27 /* OpenCVDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0086D5731F4D214A00D39C27 /* OpenCVDemoUITests.m */; };
-		0086D58C1F4D241300D39C27 /* MEImageProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0086D58B1F4D241300D39C27 /* MEImageProcessing.m */; };
 		0086D58F1F4D244100D39C27 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0086D58E1F4D244100D39C27 /* UIImage+OpenCV.mm */; };
+		00992AA71F5FF8D000AC1A84 /* faceRecognition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 00992AA61F5FF8D000AC1A84 /* faceRecognition.mm */; };
+		00C69D4C1F554A2E0043E2DF /* libfreeimage-iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C69D4B1F554A2E0043E2DF /* libfreeimage-iphonesimulator.a */; };
 		EE4EE1149552D8C833CBD068 /* Pods_OpenCVDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C058545D835E9908EA14D5E /* Pods_OpenCVDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005230D01F6003C4006652CD /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+		005230D11F6003C4006652CD /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
+		006BFD0D1F541630003BDF78 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		0086D54B1F4D214A00D39C27 /* OpenCVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0086D54F1F4D214A00D39C27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0086D5511F4D214A00D39C27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,11 +62,11 @@
 		0086D5731F4D214A00D39C27 /* OpenCVDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCVDemoUITests.m; sourceTree = "<group>"; };
 		0086D5751F4D214A00D39C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0086D5811F4D233A00D39C27 /* OpenCVPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVPrefix.pch; sourceTree = "<group>"; };
-		0086D5861F4D240100D39C27 /* MEImageProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MEImageProcessing.h; path = ImageProcessing/MEImageProcessing.h; sourceTree = "<group>"; };
-		0086D58A1F4D241300D39C27 /* MEImageProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEImageProcessing.h; sourceTree = "<group>"; };
-		0086D58B1F4D241300D39C27 /* MEImageProcessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEImageProcessing.m; sourceTree = "<group>"; };
 		0086D58D1F4D244100D39C27 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
 		0086D58E1F4D244100D39C27 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		00992AA51F5FF8D000AC1A84 /* faceRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = faceRecognition.h; sourceTree = "<group>"; };
+		00992AA61F5FF8D000AC1A84 /* faceRecognition.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = faceRecognition.mm; sourceTree = "<group>"; };
+		00C69D4B1F554A2E0043E2DF /* libfreeimage-iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libfreeimage-iphonesimulator.a"; path = "OpenCVDemo/ImageProcessing/libfreeimage-iphonesimulator.a"; sourceTree = "<group>"; };
 		1C1A66E5D33E9785D8F4A733 /* Pods-OpenCVDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVDemo/Pods-OpenCVDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8C058545D835E9908EA14D5E /* Pods_OpenCVDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenCVDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AC00D1B2ACED1A9817EE09 /* Pods-OpenCVDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVDemo/Pods-OpenCVDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C69D4C1F554A2E0043E2DF /* libfreeimage-iphonesimulator.a in Frameworks */,
+				006BFD0E1F541630003BDF78 /* libstdc++.tbd in Frameworks */,
 				EE4EE1149552D8C833CBD068 /* Pods_OpenCVDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,7 +136,6 @@
 				0086D55F1F4D214A00D39C27 /* Info.plist */,
 				0086D54E1F4D214A00D39C27 /* Supporting Files */,
 				0086D5811F4D233A00D39C27 /* OpenCVPrefix.pch */,
-				0086D5861F4D240100D39C27 /* MEImageProcessing.h */,
 			);
 			path = OpenCVDemo;
 			sourceTree = "<group>";
@@ -135,6 +143,8 @@
 		0086D54E1F4D214A00D39C27 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				005230D01F6003C4006652CD /* haarcascade_frontalface_alt.xml */,
+				005230D11F6003C4006652CD /* haarcascade_frontalface_alt2.xml */,
 				0086D54F1F4D214A00D39C27 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -161,10 +171,10 @@
 		0086D5891F4D241300D39C27 /* ImageProcessing */ = {
 			isa = PBXGroup;
 			children = (
-				0086D58A1F4D241300D39C27 /* MEImageProcessing.h */,
-				0086D58B1F4D241300D39C27 /* MEImageProcessing.m */,
 				0086D58D1F4D244100D39C27 /* UIImage+OpenCV.h */,
 				0086D58E1F4D244100D39C27 /* UIImage+OpenCV.mm */,
+				00992AA51F5FF8D000AC1A84 /* faceRecognition.h */,
+				00992AA61F5FF8D000AC1A84 /* faceRecognition.mm */,
 			);
 			path = ImageProcessing;
 			sourceTree = "<group>";
@@ -172,6 +182,8 @@
 		2A06B21BE0B6BE6D687C8009 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00C69D4B1F554A2E0043E2DF /* libfreeimage-iphonesimulator.a */,
+				006BFD0D1F541630003BDF78 /* libstdc++.tbd */,
 				8C058545D835E9908EA14D5E /* Pods_OpenCVDemo.framework */,
 			);
 			name = Frameworks;
@@ -300,6 +312,8 @@
 			files = (
 				0086D55E1F4D214A00D39C27 /* LaunchScreen.storyboard in Resources */,
 				0086D55B1F4D214A00D39C27 /* Assets.xcassets in Resources */,
+				005230D31F6003C4006652CD /* haarcascade_frontalface_alt2.xml in Resources */,
+				005230D21F6003C4006652CD /* haarcascade_frontalface_alt.xml in Resources */,
 				0086D5591F4D214A00D39C27 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,10 +387,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0086D58C1F4D241300D39C27 /* MEImageProcessing.m in Sources */,
 				0086D58F1F4D244100D39C27 /* UIImage+OpenCV.mm in Sources */,
 				0086D5561F4D214A00D39C27 /* ViewController.mm in Sources */,
 				0086D5531F4D214A00D39C27 /* AppDelegate.m in Sources */,
+				00992AA71F5FF8D000AC1A84 /* faceRecognition.mm in Sources */,
 				0086D5501F4D214A00D39C27 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,7 +543,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B3A365563G;
 				INFOPLIST_FILE = OpenCVDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenCVDemo/Stitch",
+					"$(PROJECT_DIR)/OpenCVDemo/ImageProcessing",
+					"$(PROJECT_DIR)/OpenCVDemo/FreeImage_lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mieasy.OpenCVDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -542,7 +563,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B3A365563G;
 				INFOPLIST_FILE = OpenCVDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenCVDemo/Stitch",
+					"$(PROJECT_DIR)/OpenCVDemo/ImageProcessing",
+					"$(PROJECT_DIR)/OpenCVDemo/FreeImage_lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mieasy.OpenCVDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

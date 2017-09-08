@@ -49,19 +49,16 @@
     return nil;
 }
 
-+ (NSArray*)facePointDetectForImage:(UIImage*)image{
++ (NSArray*)facePointDetectForImage:(UIImage*)image {
     
     static cv::CascadeClassifier faceDetector;
     
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         // 添加xml文件
-        NSString* cascadePath = [[NSBundle mainBundle]
-                                 pathForResource:@"haarcascade_frontalface_alt2"
-                                 ofType:@"xml"];
+        NSString* cascadePath = [[NSBundle mainBundle] pathForResource:@"haarcascade_frontalface_alt2" ofType:@"xml"];
         faceDetector.load([cascadePath UTF8String]);
     });
-    
     
     cv::Mat faceImage;
     faceImage = [UIImage cvMatFromUIImage:image];
@@ -95,12 +92,9 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         
-        NSString* cascadePath = [[NSBundle mainBundle]
-                                 pathForResource:@"haarcascade_frontalface_alt"
-                                 ofType:@"xml"];
+        NSString* cascadePath = [[NSBundle mainBundle] pathForResource:@"haarcascade_frontalface_alt" ofType:@"xml"];
         faceDetector.load([cascadePath UTF8String]);
     });
-    
     
     cv::Mat faceImage;
     faceImage = [UIImage cvMatFromUIImage:image];

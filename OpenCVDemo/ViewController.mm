@@ -10,16 +10,13 @@
 #import "faceRecognition.h"
 
 @interface ViewController ()
-
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
-
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     // 灰度处理
     UIImage *image = [UIImage imageNamed:@"icon.jpg"];
     cv::Mat inputMat = [UIImage cvMatFromUIImage:image];

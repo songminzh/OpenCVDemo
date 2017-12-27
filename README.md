@@ -93,23 +93,10 @@ opencv目前分为两个版本系列：opencv2.4.x和opencv3.x。
 1. 引入相关头文件
 
 ```
-
 #import <opencv2/opencv.hpp>
-
-
-
 #import <opencv2/imgproc/types_c.h>
-
-
-
 #import <opencv2/imgcodecs/ios.h>
-
-
-
 #import <opencv2/highgui/highgui_c.h>
-
-
-
 ```
 
 **注：使用OpenCV的类必须支持C++的编译环境，把.m文件改为.mm即可。**

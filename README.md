@@ -4,13 +4,11 @@
 
 # 关于OpenCV
 
-------
-
 ## 简介
 
 > OpenCV (Open Source Computer Vision Library)是一个在BSD许可下发布的开源库，因此它是免费提供给学术和商业用途。有C++、C、Python和Java接口，支持Windows、Linux、MacOS、iOS和Android等系统。OpenCV是为计算效率而设计的，而且密切关注实时应用程序的发展和支持。该库用优化的C/C++编写,可以应用于多核处理。在启用OpenCL的基础上，它可以利用底层的异构计算平台的硬件加速。
-
-                                                                                        ——opencv.org
+>
+> ​                                                                                                                      from opencv.org
 
 ## OpenCV的模块
 
